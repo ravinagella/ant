@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="project1" basedir="." default="display">
+    <description>
+        This is my first ANT project
+    </description>
+	
+    <property file="mybuild.properties"/> 
+
+    <target name="display" description="property display">
+        <echo> name=${myname} company=${mycompany} </echo>
+    </target>
+</project>
